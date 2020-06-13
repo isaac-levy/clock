@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#clockFrame {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+}
+#clockRim {
+    position: relative;
+    box-sizing: border-box;
+    border: 7px solid rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 50%;
+}
+#clockCenter {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    left: 233px;
+    top: 233px;
+}
+#secondRotator {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+}
+#secondArm {
+    position: absolute;
+    width: 2px;
+    height: 250px;
+    left: 9px;
+    bottom: 10px;
+    background-color: black;
+}
+#minuteRotator {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+}
+#minuteArm {
+    position: absolute;
+    width: 3px;
+    height: 200px;
+    left: 8.5px;
+    bottom: 50%;
+    background-color: black;
+}
+#hourRotator {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+}
+#hourArm {
+    position: absolute;
+    width: 5px;
+    height: 150px;
+    left: 7.5px;
+    bottom: 50%;
+    background-color: black;
+}
+.hourTick {
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    z-index: 1;
+}
+.minuteTick {
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    background-color: rgb(172, 172, 172);
+}
